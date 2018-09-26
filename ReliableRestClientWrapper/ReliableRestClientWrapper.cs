@@ -12,7 +12,7 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Net.Security;
-using ReliableRestConnectionWrapper.Exceptions;
+using ReliableRestClient.Exceptions;
 
 namespace ReliableRestClient
 {
