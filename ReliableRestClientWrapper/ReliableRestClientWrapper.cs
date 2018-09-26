@@ -486,7 +486,7 @@ namespace ReliableRestClient
         {
             return _innerClient.ExecuteAsync<T>(request, callback, httpMethod);
         }
-        //Hasta aqui
+        
         public RestRequestAsyncHandle ExecuteAsync(IRestRequest request, Action<IRestResponse, RestRequestAsyncHandle> callback)
         {
             return _innerClient.ExecuteAsync(request, callback);
