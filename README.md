@@ -1,5 +1,5 @@
 # reliable-rest-client-wrapper
-RestSharp wrapper with resilience policies, making synchronous requests more reliable to transient failure via Polly libreary.
+RestSharp wrapper with resilience policies, making synchronous requests more reliable to transient failure via Polly library.
 
 [![Build History](https://buildstats.info/travisci/chart/mediatechsolutions/reliable-rest-client-wrapper?branch=master)](https://travis-ci.org/mediatechsolutions/reliable-rest-client-wrapper)
 [![NuGet Version](https://buildstats.info/nuget/ReliableRestClientWrapper?includePreReleases=true)](https://www.nuget.org/packages/ReliableRestClientWrapper)
