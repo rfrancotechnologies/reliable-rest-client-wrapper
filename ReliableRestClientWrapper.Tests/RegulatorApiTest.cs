@@ -42,7 +42,7 @@ namespace ReliableRestClient.Tests
         public void request_fails_timeout()
         {
             retries = 0;
-            ISyncPolicy retryPolicy = GenerateTimeoutAndRetryPolicy(50, 100, 10);
+            ISyncPolicy retryPolicy = GenerateTimeoutAndRetryPolicy(50, 100, 1);
             _client = new ReliableRestClientWrapper(new RestClient("http://localhost:8190/v1"), retryPolicy);
 
             var request = new RestRequest("/regulator/self-exclusions", Method.GET);
