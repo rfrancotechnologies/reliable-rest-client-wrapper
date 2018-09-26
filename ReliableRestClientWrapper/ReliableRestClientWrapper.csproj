@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0;net4.5.2;</TargetFrameworks>
+    <Version>0.1.0</Version>
+    <PackageId>ReliableRestClientWrapper</PackageId>
+    <Title>ReliableRestClientWrapper</Title>
+    <Description>Wrapper for RestSharp that provides resilience via the Polly library.</Description>
+    <Authors>jsolana;mediatechsolutions</Authors>
+    <Copyright>Copyright Mediatech Solutions 2018</Copyright>
+    <PackageLicenseUrl>https://www.gnu.org/licenses/lgpl-3.0.en.html</PackageLicenseUrl>
+    <PackageProjectUrl>https://github.com/mediatechsolutions/reliable-rest-client-wrapper</PackageProjectUrl>
+    <PackageTags>RestSharp Rest Client Resilience Retry Retries Polly</PackageTags>
+    <IncludeSource>false</IncludeSource>
+    <PackageReleaseNotes>
+      First release including resilience in RestSharp synchronous operations.
+    </PackageReleaseNotes>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Polly" Version="5.9.0" />
+    <PackageReference Include="RestSharp" Version="106.4.2" />
+  </ItemGroup>
+</Project>

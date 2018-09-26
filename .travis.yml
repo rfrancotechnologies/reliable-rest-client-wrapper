@@ -1,0 +1,10 @@
+language: csharp
+mono: none
+dotnet: 1.1.5
+script:
+ - dotnet restore
+ - cd ReliableRestClientWrapper
+ - dotnet build -f netstandard2.0
+ - cd ../ReliableRestClientWrapper.Tests
+ - dotnet build
+ - dotnet test
