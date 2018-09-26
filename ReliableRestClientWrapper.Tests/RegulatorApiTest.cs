@@ -2,7 +2,7 @@
 using Polly.CircuitBreaker;
 using Polly.Retry;
 using Polly.Timeout;
-using ReliableRestConnectionWrapper.Exceptions;
+using ReliableRestClient.Exceptions;
 using RestSharp;
 using System;
 using System.Collections.Generic;
@@ -11,7 +11,7 @@ using System.Text;
 using System.Threading.Tasks;
 using Xunit;
 
-namespace ReliableRestClientWrapper.Tests
+namespace ReliableRestClient.Tests
 {
     public class RegulatorApiTest
     {

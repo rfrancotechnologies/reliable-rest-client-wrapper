@@ -14,7 +14,7 @@ using System.Threading.Tasks;
 using System.Net.Security;
 using ReliableRestConnectionWrapper.Exceptions;
 
-namespace ReliableRestClientWrapper
+namespace ReliableRestClient
 {
     public class ReliableRestClientWrapper : IRestClient
     {
