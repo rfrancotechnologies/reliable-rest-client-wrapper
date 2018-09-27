@@ -1,7 +1,7 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
     <TargetFrameworks>netstandard2.0;net4.5.2;</TargetFrameworks>
-    <Version>0.1.0</Version>
+    <Version>0.1.1</Version>
     <PackageId>ReliableRestClientWrapper</PackageId>
     <Title>ReliableRestClientWrapper</Title>
     <Description>Wrapper for RestSharp that provides resilience via the Polly library.</Description>
