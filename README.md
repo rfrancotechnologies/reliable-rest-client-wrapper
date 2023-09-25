@@ -32,3 +32,4 @@ _client = new ReliableRestClientWrapper(new RestClient(BaseUrl), policyWrap);
 ```
 Check [Polly documentation](https://github.com/App-vNext/Polly/wiki) to define the policies needed in each case correctly
 You are absolutely free to configure Polly's policies so you can decide what exceptions or even error codes, how many times you want to retry,  how much time you want to wait between retries, timeout of the whole operation, etc. you want to apply.
+
