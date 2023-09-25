@@ -1,6 +1,6 @@
 ﻿<Project Sdk="Microsoft.NET.Sdk">
   <PropertyGroup>
-    <TargetFrameworks>netstandard2.0;net4.5.2;</TargetFrameworks>
+    <TargetFrameworks>netstandard2.0;net4.7.2;</TargetFrameworks>
     <Version>0.1.1</Version>
     <PackageId>ReliableRestClientWrapper</PackageId>
     <Title>ReliableRestClientWrapper</Title>
@@ -17,6 +17,6 @@
   </PropertyGroup>
   <ItemGroup>
     <PackageReference Include="Polly" Version="5.9.0" />
-    <PackageReference Include="RestSharp" Version="106.4.2" />
+    <PackageReference Include="RestSharp" Version="106.6.7" />
   </ItemGroup>
 </Project>

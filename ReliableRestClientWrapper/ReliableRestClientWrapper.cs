@@ -13,6 +13,7 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Net.Security;
 using ReliableRestClient.Exceptions;
+using RestSharp.Serialization;
 
 namespace ReliableRestClient
 {
@@ -610,6 +611,14 @@ namespace ReliableRestClient
             }
         }
 
-        
+        public IRestClient UseSerializer(IRestSerializer serializer)
+        {
+            return this.UseSerializer(serializer);
+        }
+
+        public string BuildUriWithoutQueryParameters(IRestRequest request)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
